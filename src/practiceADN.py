@@ -10,8 +10,7 @@ indice = 0
 cadenaMayorTemp = ''
 cadenaMayor = ''
 
-for i in range(len(cadena1))
-    for j in range(len(cadena2)):
+for i in range(len(cadena1))    
         if cadena1[i] == cadena2[j]:            
 
 
@@ -22,7 +21,7 @@ for i in range(len(cadena1)):
             for k in range(i + 1, len(cadena1)):                
                 cadenaMayorTemp += cadena1[k]
                 if cadena2.find(cadenaMayorTemp)
-                                
+
         else:
             if (len(cadenaMayorTemp) > len(cadenaMayor)):
                 cadenaMayor = cadenaMayorTemp
