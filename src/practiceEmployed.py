@@ -17,4 +17,4 @@ json_string = '''
 '''
 
 empleado = json.loads(json_string)
-print(empleado["cargo"])  # Ingeniero de software
+print(empleado["cargo"])  
