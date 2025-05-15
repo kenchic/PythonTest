@@ -25,6 +25,11 @@ print(contactos.keys())
 # 3. Obtener el número de un contacto con get()
 print("\nNúmero de Ana:", contactos.get("Ana"))
 
+# 3. Obtener manualmente número de Luis
+for nombre, telefono in contactos.items():
+    if nombre == 'Luis' :
+        print ( f" telefono de luis es:{telefono}")
+
 # 4. Eliminar un contacto con pop()
 eliminado = contactos.pop("Luis")
 print("\nSe eliminó a Luis con número:", eliminado)
@@ -34,6 +39,8 @@ print("Diccionario actual:", contactos)
 print("\nLista de contactos:")
 for nombre, telefono in contactos.items():
     print(f"{nombre}: {telefono}")
+
+
 
 # 6. Eliminar todos los contactos
 contactos.clear()
