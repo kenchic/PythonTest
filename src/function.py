@@ -16,3 +16,15 @@ mostrar_datos_cuenta(
     saldo=15000
 )
 
+
+def es_palidromo(palabra):
+    invertido = palabra[::-1]
+    resultado = palabra == invertido
+    return resultado
+
+palabra = input("Ingrese palabra: ")
+
+if es_palidromo(palabra):
+    print (f"la palabra {palabra} es correcta")
+else: 
+    print (f"la palabra {palabra} no es correcta")
