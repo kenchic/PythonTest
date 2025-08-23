@@ -10,7 +10,7 @@ def CadenaMayor(cadena1, cadena2):
 
     for i, c in enumerate(cadena1) :
         if  cadena2.find(c) != -1:
-            for j in range(i + 1, len(cadena1) + 1):
+            for j in range(i + 1, len(cadena1) + 1): 
                 cadenaMayorTemp = cadena1[i:j]   
                 if  cadena2.find(cadenaMayorTemp) == -1:
                         cadenaMayorTemp = ''
