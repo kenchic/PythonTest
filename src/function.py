@@ -16,7 +16,6 @@ mostrar_datos_cuenta(
     saldo=15000
 )
 
-
 def es_palidromo(palabra):
     invertido = palabra[::-1]
     resultado = palabra == invertido
