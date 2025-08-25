@@ -23,6 +23,7 @@ def es_palidromo(palabra):
 
 palabra = input("Ingrese palabra: ")
 
+
 if es_palidromo(palabra):
     print (f"la palabra {palabra} es correcta")
 else: 
