@@ -23,8 +23,40 @@ def es_palidromo(palabra):
 
 palabra = input("Ingrese palabra: ")
 
-
 if es_palidromo(palabra):
     print (f"la palabra {palabra} es correcta")
 else: 
     print (f"la palabra {palabra} no es correcta")
+    
+    
+def funcion_documentada(mensaje):
+    """
+    Muestra un mensaje en la pantalla
+    
+    Args:
+        mensaje(string): mensaje para mostrar en pantalla
+    
+    Returns:
+        N/A
+    """
+    print (mensaje)
+
+funcion_documentada('mostrar este mensaje')
+
+def dividir(cociente, divisor):
+    """
+    Funcion que divide un numero por otro
+    Args:
+        cociente: número cociente a ser dividido
+        divisor: número en el que se divide
+    Ruturns:
+        Devuelve el valor de la división
+    """
+    try:
+        resultado = cociente / divisor
+        return resultado
+    except ZeroDivisionError:
+        return 0
+    
+print (dividir(2,4))
+print (dividir(9,0))
