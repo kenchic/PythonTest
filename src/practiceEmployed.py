@@ -1,4 +1,5 @@
 import json
+import utilities
 
 json_string = '''
 {
@@ -17,4 +18,4 @@ json_string = '''
 '''
 
 empleado = json.loads(json_string)
-print(empleado["cargo"])  
+utilities.consola(empleado["cargo"])  
