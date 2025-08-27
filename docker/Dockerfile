@@ -19,4 +19,4 @@ RUN git clone https://github.com/kenchic/PythonTest.git .
 
 # Dockerfile (añadir al final)
 RUN git config --global user.name "Germán Alvarez" && \
-    git config --global user.email "kecnhic@gmail.com"
+    git config --global user.email "kenchic@gmail.com"
